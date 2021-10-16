@@ -31,7 +31,7 @@ class EventController extends Controller
     }
 
     public function getAll(){
-        $items = EventModel::all();
+        $items = EventModel::paginate(10);
         return view('admin.allEvents', ['items'=>$items]);
     }
 

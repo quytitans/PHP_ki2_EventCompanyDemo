@@ -111,59 +111,8 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="row datatables-footer">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="dataTables_info" id="datatable-editable_info" role="status" aria-live="polite">
-                            Showing 1 to 5 of 500 product, total page 300
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="dataTables_paginate paging_bs_normal" id="datatable-editable_paginate">
-                            <ul class="pagination">
-                                <li>
-                                    <a href="1" class="page-link">
-                                        First
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<%= parseInt(page) - 1%>" class="page-link">
-                                        <span class="fa fa-chevron-left">
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<%= parseInt(page) - 2%>" class="page-link">1</a>
-                                </li>
-                                <li>
-                                    <a href="<%= parseInt(page) - 1%>" class="page-link">2</a>
-                                </li>
-
-                                <li class="active">
-                                    <a href="#">3</a>
-                                </li>
-
-                                <li>
-                                    <a href="<%= parseInt(page) + 1%>" class="page-link">4</a>
-                                </li>
-
-                                <li>
-                                    <a href="<%= parseInt(page) + 2%>" class="page-link">5</a>
-                                </li>
-
-                                <li>
-                                    <a href="<%= parseInt(page) + 1%>" class="page-link">
-                                        <span class="fa fa-chevron-right">
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<%= totalPage%>" class="page-link">
-                                        Last
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="row datatables-footer dataTables_paginate paging_bs_normal">
+                   {!! $items->links() !!}
                 </div>
             </div>
         </section>

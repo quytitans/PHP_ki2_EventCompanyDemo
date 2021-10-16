@@ -228,9 +228,228 @@ class EventSeeder extends Seeder
                 'portfolio'=> $faker->company,
                 'ticketPrice'=> $faker->numberBetween(1,10)*1000,
                 'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 43,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 22,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 23,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 24,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 25,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 26,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 27,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 28,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 29,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 30,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 31,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 32,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 33,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 34,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 35,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 36,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 37,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 38,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 39,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 40,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 41,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
+            ],
+            [
+                'id' => 42,
+                'eventName' => 'rung chuong vang',
+                'bandNames' => $faker->name,
+                'startDate' => Carbon::now()->addDay(-2),
+                'endDate' => Carbon::now()->addDay(-1),
+                'portfolio'=> $faker->company,
+                'ticketPrice'=> $faker->numberBetween(1,10)*1000,
+                'status'=> $faker->numberBetween(1,3)
             ]
         ]);
-
         \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
     }
 }
